@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Title -->
+        <title>Home</title>
+        <link rel="shortcut icon" href="{{ url_for('static', filename='icons/favicon.png') }}" />
+        <!-- Stylesheets -->
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}"> <!-- CSS Custom -->
+        <link rel="stylesheet" href="{{ url_for('static', filename='vendor/bootstrap/bootstrap.min.css') }}"> <!-- CSS Bootstrap -->
+    </head>
+    <body>
+        <!-- main-container -->
+        <div class="main-container">
+            {% block main_container %}{% endblock %}
+        </div>
+        <!-- JAVASCRIPT -->
+        <script type="text/javascript" src="{{ url_for('static', filename='vendor/jquery/jquery.min.js')}}"></script> <!-- Javascript Jquery 3.5.1 -->
+        <script type="text/javascript" src="{{ url_for('static', filename='vendor/bootstrap/bootstrap.min.js')}}"></script> <!-- Javascript Bootstrap -->
+        <script type="text/javascript" src="{{ url_for('static', filename='js/main.js')}}"></script> <!-- Custom JS -->
+    </body>
+</html>
