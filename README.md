@@ -7,6 +7,17 @@
 - Jquery version - 3.5.1
 - Please refer requirements.txt for python modules versions.
 
+## Start with this App
+
+- Install python from https://www.python.org/downloads/  (use **sudo apt install python3 -y** on Linux[Ubuntu])
+- Download git from https://git-scm.com/downloads  (use **sudo install git -y** on Linux[Ubuntu])
+- Go to Windows PowerShell or Command Prompt on your Windows device.  (use Terminal/konsole on linux device)
+- Type **git clone https://github.com/9app/flask-init.git** and hit enter.
+- Type **cd flask-init**
+- Type **pip install -r requirements.txt**
+- Type **python .\run.py** and now you can lauch the application on http://localhost:5000 or http://localhost:8080 depending on DEBUG_MODE ENV variable value.
+
+
 ## Please check below folders and files structure -  
 
 **flask-init**  
