@@ -1,6 +1,24 @@
 {% extends "base.html" %}
 {% block main_container %}
 
-    <h1>Hello from {{ author_name }}!</h1>
+<div class="container">
+    <div class="col text-center mt-5">
+        <img style="max-width:100%; height:auto;" src="{{ url_for('static', filename='images/flask-python.png') }}" alt="">
+    </div>
+</div>
+<div class="bg-blue">
+    <div class="container">
+        <div class="row">
+        </div>
+        <div class="row">
+            <div class="col text-center p-3">
+                <h1 style="color:#ffffff">
+                    <b>Hello from {{ country_name }}!</b>
+                </h1>
+                <p style="color:#888888">By &nbsp;<a href="http://dvops.in">DVOPS.IN</a></p>
+            </div>
+        </div>
+    </div>
+</div>
 
 {% endblock %}

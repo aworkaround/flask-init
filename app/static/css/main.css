@@ -1,0 +1,22 @@
+@font-face {
+    font-family: roboto;
+    src: url(../font/Roboto-Medium.ttf);
+}
+
+body {
+    font-family: roboto, sans-serif;
+}
+
+.bg-blue {
+    background-color:#08073b;
+}
+
+a{
+    color: #fff;
+}
+a:active {
+    color: #fff;
+}
+a:visited {
+    color: #fff;
+}
