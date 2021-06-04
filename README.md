@@ -14,8 +14,9 @@
 - Go to Windows PowerShell or Command Prompt on your Windows device.  (use Terminal/konsole on linux device)
 - Type **git clone https://github.com/9app/flask-init.git** and hit enter.
 - Type **cd flask-init**
-- Type **pip install -r requirements.txt**
-- Type **python .\run.py** and now you can lauch the application on http://localhost:5000 or http://localhost:8080 depending on DEBUG_MODE ENV variable value.
+- Type **pipenv install**
+- Type **pipenv shell**
+- Type **python ./run.py** and now you can lauch the application on http://localhost:5000 or http://localhost:8080 depending on DEBUG_MODE ENV variable value.
 
 
 ## Please check below folders and files structure -  
