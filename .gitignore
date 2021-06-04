@@ -11,3 +11,4 @@ example
 .ipynb_checkpoints/*
 .github
 *.pyc
+Pipfile.lock
